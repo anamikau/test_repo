@@ -100,6 +100,7 @@ getSchemaData(Archive *fout, int *numTablesPtr)
 	int			numForeignServers;
 	int			numDefaultACLs;
 	int			numEventTriggers;
+	int			abcd;
 
 	if (g_verbose)
 		write_msg(NULL, "reading schemas\n");
