@@ -29,6 +29,7 @@ static int	allocedDumpIds = 0;
 static DumpId lastDumpId = 0;
 static int subhasis = 1;
 static int hiren = 2;
+static int subhasis_desktop = 3;
 
 /*
  * Variables for mapping CatalogId to DumpableObject
